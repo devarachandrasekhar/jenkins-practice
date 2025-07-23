@@ -5,7 +5,7 @@ pipeline {
         stage('Pull Code') {
             steps {
                 echo '🔹 Pulling code from Git...'
-              
+                echo 'Triggering through webhook'
             }
         }
 
